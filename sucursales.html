@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./bootstrap-5.2.2-dist/css/bootstrap.min.css">
+
+    <title>Sucursales</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html">index</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./sucursales.html">sucursales</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <!--lista-->
+      <div class="row">
+        <div class="col-4">
+          <div id="list-example" class="list-group">
+            <a class="list-group-item list-group-item-action" href="#list-item-1">Tema 1</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-2">Tema 2</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-3">Tema 3</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-4">Tema 4</a>
+          </div>
+        </div>
+        <div class="col-8">
+          <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+            <h4 id="list-item-1">Politica 1</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid repudiandae, voluptaratione.</p>
+            <h4 id="list-item-2">Ambiental 2</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore temporibus voluptat nostrum explicab</p>
+            <h4 id="list-item-3">Salud 3</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quae in aliquid expli ad, exercitationem possi</p>
+            <h4 id="list-item-4">Estudios 4</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam eum cum, veritatis dolores</p>
+          </div>
+        </div>
+      </div>
+
+    
+
+      <!--alerta-->
+      <div class="alert alert-primary" role="alert">
+        FIJATE EN TU ARMARIO HAY UN MONSTRUO!
+      </div>
+    
+    <p>Llenar el formulario</p>
+    <!--formulario-->
+    <form>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">si no puede ingresarlo intente nuevamente.</div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Todo okey</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Subcribirme</button>
+    </form>
+
+
+
+    <script src="./bootstrap-5.2.2-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
